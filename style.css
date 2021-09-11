@@ -1,0 +1,738 @@
+body{
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+    }
+    .container{
+        margin:0 auto;
+        max-width: 1120px;
+        width: 100%;
+    }
+    /* Header */
+    .main-picture{
+    background: url(pictures/1.jpg) center;
+    width: 100%;
+    height: 900px;
+    }
+    .header{
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+    align-items: center;
+    }
+    .link{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    
+    }
+    .header_link_1{
+        margin: 0px 0px 0px 0px;
+    }
+    .header_link_2{
+        margin: 0px 0px 0px 37px;
+        white-space: nowrap;
+    }
+    .header_link_3{
+        margin: 0px 0px 0px 37px;
+    }
+    .header_link_4{
+        margin: 0px 0px 0px 37px;
+    }
+    .header_link_5{
+        margin: 0px 100px 0px 37px;
+    }
+
+    .header_line{
+        height: 0px;
+        width: 100%;
+        left: 0px;
+        top: 100px;
+        border-radius: nullpx;
+        border: 1px solid #A1A1A1;
+        position: absolute;
+        opacity: 0.5;
+    }
+    .header_line2{
+        height: 0px;
+        width: 104px;
+        border: 2px solid #ffffff;
+        z-index: 1;
+        margin: 0 auto;
+    }
+
+    .main_picture_text{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .main_picture_text_1{
+       margin-top: 220px;
+    }
+    .main_picture_text_2{
+        color:#FFFFFF;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 64px;
+    }
+    .button{
+        box-shadow: 0px 0px 10px 0px #6F6F6F40;
+        height: 45px;
+        width: 180px;
+        border-radius: 30px;
+        background: #4985FF;
+        margin: 0 auto 0 470px;
+    }
+     
+    /* Header */
+    
+     /* Начало 1 секции */
+    
+     .task1{
+        height: 488px;
+        width: 100%;
+    }
+    .task1-text1{
+        height: 88px;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight:bold;
+        line-height: 53px;
+        text-align: center;
+        margin:110px auto 0 auto;
+        white-space: nowrap;
+    }
+    .task1-text2{
+        height: 41px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: center;
+        margin: 50px auto 0 auto;
+        opacity: 50%;
+    }
+    .task1-flex{
+    display:flex;
+    flex-basis: 33.33%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    }
+    .box1{
+    display: flex;
+    flex-direction: row;
+     
+    }
+    .box2{
+        display: flex;
+        flex-direction: row;
+         
+    }
+    .box3{
+        display: flex;
+        flex-direction: row;
+         
+    }
+    .task1-picture1{
+        margin: 0px 10px 0px 0px;
+    }
+    .picture1-text1{
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        line-height: 22px;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+    .picture1-text2{
+        margin-top:20px
+    }
+    .task1_flex_text{
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        white-space: nowrap;
+        opacity: 50%;
+    }
+    .task1-button{
+        box-shadow: 0px 0px 10px 0px #6F6F6F40;
+        height: 45px;
+        width: 180px;
+        border-radius: 30px;
+        background: #4985FF;
+        margin: 50px auto 0 470px;
+    }
+    .position-button1{
+        color:#FFFFFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+    /* конец 1 секции */
+    
+
+    /* Начало 2 секции */
+    .task2{
+        width: 100%;
+        background: #F6F6F8;
+        margin: 105px 0px 0px 0px;
+        }
+        .task2-flex1{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+        }
+        .task2-text{
+        margin: 0px 150px 0px 150px;
+        text-align: left;
+        }
+        .task2-text1{
+            font-family: Montserrat;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 53px;
+        }
+        .task2-text2{
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+            opacity: 50%;
+        }
+        .task2-text3{
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            color: #4985FF;
+            text-decoration-line: underline;
+        }
+        .task2-picture{
+            margin: 100px 0px 0px 0px;
+        }
+        .task2-line{
+            width: 63.81%;
+            border: 1px solid #E0E0E0;
+            margin: 90px auto 0px auto;
+        }
+        .task2-flex2{
+            width: 55%;
+            margin: 0 auto;
+            display:flex;
+            justify-content: space-around;
+        }
+        .task2-box{
+            margin: 70px 0px 0px 0px;
+        }
+        .flex_2-text_1{
+            font-family: Montserrat;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 53px;
+            text-align: left;
+            position: relative;
+            bottom: 80px;
+            left: 40px;
+            color:black;
+            text-decoration-line: none;
+        }
+        .flex2-text2{
+            height: 15px;
+            width: 100px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: left;
+            opacity: 50%;
+            color: #999999;
+            position: relative;
+            bottom: 120px;
+            text-decoration-line: none;
+        }
+        /* конец 2 секция */
+
+    /* Начало 3 секции */
+    .task3{
+        width: 100%;
+        }
+        .back{
+            height: 490px;
+            width: 100%;
+            background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%),
+        linear-gradient(0deg, #C4C4C4, #C4C4C4);
+        }
+        .back-flex{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0 auto;
+            align-items: center;
+            text-align: center;
+        }
+        .task3-text1{
+            height: 88px;
+            font-family: Montserrat;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 53px;
+            text-align: left;
+            margin: 0px auto 0px auto;
+            color:#FFFFFF;
+        }
+        .task3-button{
+            height: 45px;
+            width: 200px;
+            border-radius: 30px;
+            background: #4985FF;
+            box-shadow: 0px 0px 10px 0px #6F6F6F40;
+            margin: 0px auto 0px auto;
+        }
+        .task3-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 108px auto 0px auto;
+        }
+        .zero{
+        margin-right: 4px;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: left;
+        color: #4985FF;
+        }
+        .task3-text2{
+            height: 17px;
+            width: 281px;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 22px;
+            text-align: left;
+        }
+        .inline{
+            display: flex;
+        }
+        .margin{
+            margin:0px 100px 20px 0px;
+        }
+        .task3-line{
+            width: 60.81%;
+            border: 1px solid #E0E0E0;
+            margin: 360px auto 0px auto;
+        }
+        .position-button{
+            color:#FFFFFF
+        }
+        /* конец 3 секция */
+
+        /* начало 4 секция */
+    .task4{
+        width: 100%;
+        background: #F6F6F8;
+        margin-bottom: 130px;
+        }
+        .task4-text1{
+            height: 35px;
+            width: 350px;
+            font-family: Montserrat;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 53px;
+            text-align: center;
+            margin: 0px auto 0px auto;
+            position: relative;
+            top:100px;
+        }
+        .task4-text2{
+            height: 41px;
+            width: 730px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: center;
+            margin: 0px auto 0px auto;
+            position: relative;
+            top:150px;
+            opacity: 50%;
+        }
+        .task4-picture{
+        display: flex;
+        justify-content: space-around;
+        margin: 230px auto 0px auto;
+        width: 60%;
+        }
+        .task4-button{
+            height: 45px;
+            width: 200px;
+            border-radius: 30px;
+            background: #4985FF;
+            box-shadow: 0px 0px 10px 0px #6F6F6F40;
+            margin: 50px auto 0px 470px;
+        }
+        .position-button{
+            color:#FFFFFF;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+        }
+        .ch{
+            margin: 0px 10px 0px 10px;
+        }
+        /* конец 4 секции */
+
+        /* начало 5 секции */
+    
+    .task5{
+        width: 100%;
+        }
+        .under{
+        width: 100%;
+        background: url(pictures/5.jpg);
+        }
+        .task5-text1{
+            height: 35px;
+            width: 444px;
+            font-family: Montserrat;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 53px;
+            text-align: center;
+            margin:0px auto 0px auto;
+            color:#FFFFFF;
+            position: relative;
+            top:70px;
+        }
+        .task5-text2{
+            height: 15px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: center;
+            margin:0px auto 0px auto;
+            color:#FFFFFF;
+            position: relative;
+            top:100px;
+        }
+        .task5-picture{
+            margin: 0px auto 0px auto;
+            text-align: center;
+            position: relative;
+            top: 180px;
+        }
+        .task5-button{
+            height: 100px;
+            width: 300px;
+            border-radius: 200px;
+            border: 1px solid #ffffff;
+            margin: 0px auto 0px auto;
+            position: relative;
+            bottom: 266px;
+        }
+        .task5-text3{
+            height: 19px;
+            width: 150px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 25px;
+            text-align: center;
+            margin:0px auto 0px auto;
+            position: relative;
+            bottom:28px;
+            left:60px;
+            color:#FFFFFF;
+        }
+        .loc{
+        position: relative;
+        right: 70px;
+        top:20px;
+        }
+        
+        .task5-line{
+            width: 60.81%;
+            border: 1px solid #E0E0E0;
+            margin: 150px auto 0px auto;
+        }
+        /* конец 5 секции */
+
+        /* Начало 6 секции */
+    
+    .task6{
+        height: 347px;
+        width: 100%;
+        }
+        .task6-text1{
+            height: 17px;
+            width: 350px;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 22px;
+            text-align: center;
+            margin: 0px auto 0px auto;
+            position: relative;
+            top:85px;
+        }
+        .task6-text2{
+            height: 15px;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 25px;
+            text-align: center;
+            color: #999999;
+            opacity: 50%;
+            margin: 0px auto 0px auto;
+            position: relative;
+            top:100px;
+        }
+        .email{
+            margin: 0px auto 0px auto;
+            position: relative;
+            top:150px;
+            text-align: center;
+            width: 489px;
+            height: 45px;
+            border-radius: 50px;
+            box-shadow: 0px 0px 10px 0px #6F6F6F40;
+        }
+        .em{
+            position:relative;
+            left: 20px;
+            border: none;
+            bottom:0px;
+            opacity: 50%;
+        }
+        .form_button{
+            background: #4985FF;
+            width: 190px;
+            height: 45px;
+            box-shadow: 0px 0px 10px 0px #6F6F6F40;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            margin-left: 120px;
+            border:none;
+            color: #FFFFFF;
+        }
+        .task6-text3{
+            height: 15px;
+            width: 386px;
+            font-family: Montserrat;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: center;
+            color: #999999;
+            opacity: 50%;
+            margin: 0px auto 0px auto;
+            position: relative;
+            top:200px;
+        }
+        /* конец 6 секции */
+
+        /* начало 7 секции */
+    .footer{
+        height: 413px;
+        width: 100%;
+        background: #F6F6F8;
+        
+        }
+        .footer-flex{
+        display: flex;
+        justify-content: space-between;
+        }
+        .footer-text1{
+            height: 17px;
+            width: 242px;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 22px;
+            text-align: left;
+        }
+        .footer-text2{
+            height: 14px;
+            width: 225px;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            text-align: left;
+            opacity: 50%;
+            margin: 20px 0px 0px 10px;
+        }
+        .sms{
+        display: flex;
+        }
+        .zvonok{
+            display: flex;
+        }
+        .location{
+            display: flex;
+        }
+        .four{
+            display: flex;
+        }
+        .mar{
+            margin: 20px 0px 0px 0px;
+        }
+        
+        .footer-line{
+            width: 60.81%;
+            border: 1px solid #E0E0E0;
+            margin: 360px auto 0px auto;
+            position: relative;
+            bottom:280px;
+        }
+        .end{
+            height: 15px;
+            width: 386px;
+            font-family: Montserrat;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: center;
+            opacity: 50%;
+            margin:0 auto;
+            position: relative;
+            bottom:250px;
+        }
+
+    @media  (max-width:1200px) {
+        .container{
+            width:1140px ;
+        }
+        
+        .button{
+            margin: 0 auto 0 390px;
+        }
+        .task1-button{
+            margin: 50px auto 0 390px;
+        }
+        .task3-flex{
+            display: block;
+            text-align: center;
+        }
+        .task3-text1{
+            margin: 0 0 50px 0;
+        }
+        .zero{
+            margin-left: 100px;
+        }
+        .task4{
+            margin-top: 800px;
+        }
+        .task4-button{
+            margin: 50px auto 0 390px
+        }
+    }
+    
+    @media  (max-width:1199px) {
+        .container{
+            width:960px ;
+        }
+        .button{
+            margin: 0 auto 0 390px;
+        }
+        .task1-button{
+            margin: 40px auto 0 390px;
+        }
+        .task2-flex1{
+            margin:105px 0 0 0;
+            display: block;
+        }
+        .task4-picture{
+            display: block;
+            text-align: center;
+        }
+        .task4-button{
+            margin: 50px auto 0 390px
+        }
+    }
+    @media  (max-width:991px) {
+        .container{
+            width:720px ;
+        }
+        .button{
+            margin: 0 auto 0 270px;
+        }
+        .main_picture_text_2{
+            font-size: 32px;
+        }
+        .task1-button{
+            margin: 0px auto 0px 270px;
+        }
+        .task2-flex1{
+            margin:130px 0 0 0;
+        }
+        .task4-button{
+            margin: 50px auto 0 270px
+        }
+       
+    }
+    @media  (max-width:710px) {
+        .container{
+            width:520px;
+        }
+        .task1-flex{
+            margin-left: 140px;
+        }
+        .button{
+            margin: 0 auto 0 170px;
+        }
+        .task1-button{
+            margin: 40px auto 0 170px;
+        }
+        .task2-flex1{
+            margin:350px 0 0 0;
+        }
+        .task4-text2{
+            width:revert;
+        }
+        .task4-button{
+            margin: 50px auto 0 170px
+        }
+        .footer-flex{
+            display: block;
+            margin-left:100px;
+        }
+    }
+    /* конец 7 секции */
